@@ -42,7 +42,7 @@ class Directory extends React.Component {
         return (
             <div className='directory-menu'>
                 {
-                    // PRIJE SPREAD OPERATORA
+                    // PRIJE UNOŠENJA SPREAD OPERATORA
                     // this.state.sections.map(({title, imageUrl, id, size, linkUrl}) => (
                         // <MenuItem key={id} title={title} imageUrl={imageUrl}  size={size} linkUrl={linkUrl} />
                     // **************************************
